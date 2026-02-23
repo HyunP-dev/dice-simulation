@@ -1,0 +1,9 @@
+name = "simulation"
+version = "0.1.0"
+license = "license"
+author = "Hyun Park"
+maintainer = "hyunp.dev@gmail.com"
+copyright = "Copyright 2026, Hyun Park"
+
+[dependencies]
+openmp = "*"
