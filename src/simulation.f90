@@ -19,13 +19,13 @@ contains
 
     call random_dice(dice)
     if (dice <= a) then
-        allocate(randoms(5))
-        call random_number(randoms)
-        retval = count(randoms < 0.5)
+      allocate(randoms(5))
+      call random_number(randoms)
+      retval = count(randoms < 0.5)
     else
-        allocate(randoms(3))
-        call random_number(randoms)
-        retval = count(randoms < 0.5)
+      allocate(randoms(3))
+      call random_number(randoms)
+      retval = count(randoms < 0.5)
     end if
     
     deallocate(randoms)
